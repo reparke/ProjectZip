@@ -1,3 +1,8 @@
+/*
+Modified 3/25/2024 Rob Parke (reparke@gmail.com)
+Original URL was flagged for hosting malware
+*/
+
 /***********************************************************
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)       *
 * Website: https://github.com/MinhasKamal/DownGit          *
@@ -32,7 +37,8 @@ homeModule.config([
 
                     var templateUrl = "https?://github.com/.+/.+";
                     var downloadUrlInfix = "#/home?url=";
-                    var downloadUrlPrefix = "https://minhaskamal.github.io/DownGit/"+downloadUrlInfix;
+                    // var downloadUrlPrefix = "https://reparke.github.io/DownGit/"+downloadUrlInfix;
+                    var downloadUrlPrefix = "https://reparke.github.io/ProjectZip/"+downloadUrlInfix;
 
                     if ($routeParams.url) {
                         $scope.url = $routeParams.url;
